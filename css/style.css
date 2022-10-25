@@ -1,0 +1,83 @@
+.header-bg {
+    background-image: url("../img/mohamed-ajufaan-GFcWwwGNu_w-unsplash.jpg");
+    height: 324px;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.header-bg::before {
+    content: "";
+    background-color: black;
+    opacity: 60%;
+    height: 100%;
+    max-width: 100%;
+    display: block;
+}
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1548px;
+    /* აქ max-width არასწორ ვიზუალს მაძლევს */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30px;
+}
+.nav-ul {
+    display: flex;
+}
+.nav-li {
+    margin-right: 51px;
+}
+.navlink {
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+}
+.navlink-active {
+    color: #5863F8;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+.nav-li:nth-child(6) {
+    margin-right: 0px;
+}
+.zetta {
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    /* margin-right: 445px; */
+}
+.au-block {
+    max-width: 190px;
+    position: absolute;
+    top: 145px;
+    /* left: 186px; */
+    left: 10%;
+    transform: translateX(-10%);
+}
+.au-block h2 {
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    color: white;
+    margin-bottom: 13px;
+}
+.au-block a {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    color: white;
+}
+.home::after {
+    content: "";
+    width: 1px;
+    height: 19px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 17px;
+}
