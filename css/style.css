@@ -28,13 +28,8 @@
 .navbar-wrapper {
     display: flex;
     justify-content: space-between;
-    /* margin: 0 auto; */
     max-width: 1089px;
     width: 100%;
-    /* position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 30px; */
 }
 .nav-ul {
     display: flex;
@@ -62,18 +57,11 @@
     font-weight: bold;
     font-size: 14px;
     color: white;
-    /* margin-right: 445px; */
 }
 .au-block {
     max-width: 190px;
     width: 100%;
     margin-top: 95px;
-    /* position: absolute; */
-    /* top: 145px; */
-    /* left: 139px; */
-    /* left: 10%;
-    transform: translateX(-10%); */
-    /* left: 0px; */
 }
 .au-block h2 {
     font-family: Poppins, sans-serif;
@@ -95,4 +83,78 @@
     display: inline-block;
     vertical-align: middle;
     margin: 0px 17px;
+}
+/* first section */
+.first-wrapper {
+    max-width: 1088px;
+    width: 100%;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.first-textbox-container {
+    max-width: 444px;
+    width: 100%;
+    align-self: center;
+}
+.first-textbox-container h3 {
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    color: #5863F8;
+}
+.fs-h2-cont {
+    max-width: 306px;
+    width: 100%;
+}
+.fs-h2-cont h2{
+    /* font-size: 42px; */
+    font-size: 36px;
+    font-family: Poppins, sans-serif;
+    /* font-weight: bold; */
+    color: #000000;
+    line-height: 56px;
+}
+.fs-p-cont1 {
+    max-width: 444px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.fs-p-cont1 p {
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    color: #000000;
+    line-height: 21px;
+}
+.fs-p-cont2 {
+    max-width: 444px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.fs-p-cont2 p {
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    color: #000000;
+    line-height: 19px;
+}
+.first-img-container {
+    max-width: 536px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.fs-img:last-child {
+    margin-top: 16px;
+}
+.first-section-button {
+    max-width: 184px;
+    width: 100%;
+    height: 50px;
+    background: #5863F8;
+}
+.first-section-button p {
+    text-align: center;
+    padding-top: 15px;
 }
