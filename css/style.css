@@ -157,4 +157,8 @@
 .first-section-button p {
     text-align: center;
     padding-top: 15px;
+    font-family: Poppins, sans-serif;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 19px;
 }
