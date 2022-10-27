@@ -21,9 +21,8 @@
     left: 50%;
     transform: translateX(-50%);
     top: 30px;
-    max-width: 1366px;
+    max-width: 1089px;
     width: 100%;
-    margin-left: 139px;
 }
 .navbar-wrapper {
     display: flex;
@@ -161,4 +160,12 @@
     color: #FFFFFF;
     font-size: 14px;
     line-height: 19px;
+}
+/* section 2 */
+.sec2-bg {
+    background-image: url("/img/Group\ 13.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 612px;
+    width: 100%;
 }
