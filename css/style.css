@@ -1,7 +1,9 @@
+/* header */
 .header-bg {
     background-image: url("../img/mohamed-ajufaan-GFcWwwGNu_w-unsplash.jpg");
     height: 324px;
-    max-width: 100%;
+    /* max-width: 1366px; */
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -14,15 +16,23 @@
     max-width: 100%;
     display: block;
 }
-.navbar-wrapper {
-    display: flex;
-    justify-content: space-between;
-    width: 1548px;
-    /* აქ max-width არასწორ ვიზუალს მაძლევს */
+.header-container {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top: 30px;
+    max-width: 1366px;
+    width: 100%;
+}
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1089px;
+    width: 100%;
+    /* position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30px; */
 }
 .nav-ul {
     display: flex;
@@ -56,9 +66,10 @@
     max-width: 190px;
     position: absolute;
     top: 145px;
-    /* left: 186px; */
-    left: 10%;
-    transform: translateX(-10%);
+    /* left: 139px; */
+    /* left: 10%;
+    transform: translateX(-10%); */
+    left: 0px;
 }
 .au-block h2 {
     font-family: Poppins, sans-serif;
