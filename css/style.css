@@ -3,7 +3,7 @@
     background-image: url("../img/mohamed-ajufaan-GFcWwwGNu_w-unsplash.jpg");
     height: 324px;
     /* max-width: 1366px; */
-    width: 100%;
+    /* width: 100%; */
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -166,6 +166,88 @@
     background-image: url("/img/Group\ 13.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 612px;
+    min-height: 612px;
+    height: auto;
+    /* width: 100%; */
+}
+.sec2-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+}
+.sec2-container {
+    margin:92px auto;
+    max-width: 1088px;
     width: 100%;
+}
+.sec2-container h6{
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: bold;
+    color: #5863F8;
+}
+.sec2-container h3 {
+    font-family: Poppins, sans-serif;
+    font-size: 36px;
+    line-height: 56px;
+    font-weight: 500;
+    color: white;
+}
+.sec2-container-h3 {
+    max-width: 332px;
+    width: 100%;
+}
+.sec2-flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1088px;
+    width: 100%;
+    margin-top: 38px;
+}
+.sec2-box {
+    width: 260px;
+    height: 260px;
+    background: #FFFFFF;
+}
+.sec2-box-content {
+    width: 221px;
+    height: 207px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 27px auto;
+}
+.sec2-box-circle {
+    width: 59px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: #5863F8;
+}
+.sec2-box-circle-img {
+    height: 33px;
+    width: 33px;
+    margin: 13px auto;
+}
+.sec2-box-content-h5 {
+    margin: 15px 0px 24px 0px;
+}
+.sec2-box-content h5 {
+    font-size: 18px;
+    color: #000000;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+.sec2-box-content p{
+    font-size: 13px;
+    line-height: 19px;
+    font-family: Poppins, sans-serif;
+    color: #B1B1B1;
+    text-align: center;
 }
