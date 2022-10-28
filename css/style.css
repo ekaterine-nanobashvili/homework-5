@@ -101,14 +101,14 @@
     width: 100%;
     align-self: center;
 }
-.first-textbox-container h3 {
+.purple-title {
     font-family: Poppins, sans-serif;
     font-weight: bolder;
     font-size: 14px;
     color: #5863F8;
     line-height: 19px;
 }
-.first-textbox-container h2{
+.sub-title {
     font-size: 42px;
     font-family: Poppins, sans-serif;
     /* font-weight: bold; */
@@ -185,13 +185,13 @@
     max-width: 1088px;
     width: 100%;
 }
-.sec2-container h6{
+/* .sec2-container h6{
     font-family: Poppins, sans-serif;
     font-size: 14px;
     line-height: 19px;
     font-weight: bold;
     color: #5863F8;
-}
+} */
 .sec2-container h3 {
     font-family: Poppins, sans-serif;
     font-size: 42px;
@@ -250,4 +250,32 @@
     font-family: Poppins, sans-serif;
     color: #B1B1B1;
     text-align: center;
+}
+/* section 3 */
+.sec3-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 487px;
+    height: auto;
+    background-color: #F8F8F8;
+}
+.sec3-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 783px;
+    width: 100%;
+}
+.sec3-left-img {
+    margin:34px 0px 20px 0px;
+}
+.sec3-left-img span {
+    vertical-align: 35px;
+    margin-left: 19px;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
 }
