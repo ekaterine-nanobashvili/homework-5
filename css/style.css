@@ -167,7 +167,7 @@
 }
 /* section 2 */
 .sec2-bg {
-    background-image: url("/img/Group\ 13.jpg");
+    background-image: url("../img/Group\ 13.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 612px;
@@ -278,4 +278,18 @@
     font-size: 18px;
     line-height: 24px;
     color: #000000;
+}
+.review {
+    font-size: 14px;
+    line-height: 19px;
+    font-family: Poppins, sans-serif;
+    color: #000000;
+}
+/* section 4 */
+.sec4-headline {
+    margin: 90px 0px 54px 139px;
+}
+.sec4-img-flex {
+    display: flex;
+    justify-content: space-between;
 }
