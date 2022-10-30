@@ -293,3 +293,73 @@
     display: flex;
     justify-content: space-between;
 }
+/* footer */
+.footer-wrapper {
+    background-color: #121212;
+    padding: 90px 0px 40px 0px;
+}
+.footer-content {
+    max-width: 1006px;
+    width: 100%;
+    margin: 0 auto;
+}
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.zeta-footer{
+    font-family: Poppins, sans-serif;
+    max-width: 260px;
+    width: 100%;
+}
+.zeta-footer h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+}
+.zeta-footer p {
+    color: #B1B1B1;
+    font-size: 14px;
+    line-height: 19px;
+}
+.socials {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.facebook {
+    width: 35px;
+    height: 35px;
+    background-color: #3B5998;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+}
+.twitter {
+    width: 35px;
+    height: 35px;
+    background-color: #55ACEE;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    margin: 0 11px 0 11px;
+}
+.google {
+    width: 35px;
+    height: 35px;
+    background-color: #DC4E41;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+}
