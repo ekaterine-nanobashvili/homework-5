@@ -396,3 +396,13 @@
     vertical-align: middle;
     margin-right: 14px;
 }
+.footer-copy {
+    margin-top: 54px;
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    color: #707070;
+    line-height: 19px;
+}
+.author {
+    color: #5863F8;
+}
