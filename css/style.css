@@ -363,3 +363,21 @@
     color: white;
     font-size: 22px;
 }
+/* .useful-links-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+.head-footer {
+    color: #FFFFFF;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.links-footer {
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    color: #5863F8;
+    line-height: 19px;
+}
